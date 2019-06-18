@@ -1,0 +1,12 @@
+version: "3"
+services:
+  quart-app:
+    restart: always
+    image: quart-app
+    build:
+      context: .
+      dockerfile: quartapp/Dockerfile
+    ports:
+    - "9000:9000"
+    env_file:
+    - .env

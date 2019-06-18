@@ -1,0 +1,4 @@
+h2>=3.0
+quart>=0.6.7
+hypercorn>=0.3
+quart-openapi>=1.4.3
