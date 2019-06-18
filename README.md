@@ -6,7 +6,9 @@ A Skeleton for a Python 3.7 asyncio based API with Quart, Hypercorn as a server 
 **Create a .env file in the root directory.**
 
 Open Powershell or your favorite shell and use:
+
 `docker-compose -p ProjectName build`
+
 `docker-compose -p ProjectName up`
 
 Then visit https://localhost:9000/
