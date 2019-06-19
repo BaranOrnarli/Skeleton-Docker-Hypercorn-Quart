@@ -1,5 +1,10 @@
-# SkeletonDockerHypercornQuart
+# Skeleton Docker Hypercorn Quart
+
 A Skeleton for a Python 3.7 asyncio based API with Quart, Hypercorn as a server to deliver HTTP/2, and Docker to tie it all together
+
+# Hypercorn ASGI Server & Quart Python Microframework
+
+ASGI (Asynchronous Server Gateway Interface) based web server that can transmit HTTP/2 (h2) packets that are encrypted with TLS and in a binary format making it faster than HTTP 1. Quart is a Python framework based upon Flask Python (and in competition with Starlette and FastAPI, although Quart more closely follows Flask).
 
 ***Note: Do not use self-signed certificate in this example in a production environment.***
 
