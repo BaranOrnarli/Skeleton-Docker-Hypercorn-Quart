@@ -8,7 +8,7 @@ ASGI (Asynchronous Server Gateway Interface) based web server that can transmit 
 
 Basic routing:
 
-```
+```python
 @app.route('/')
 async def index_page():
   return jsonify({"Processing": "Accomplished"})
@@ -16,7 +16,7 @@ async def index_page():
 
 Routing can be enhanced with OpenAPI to make it more like Flask REST products using class methods:
 
-```
+```python
 @app.route('/')
 class Root(Resource):
   async def get(self):
