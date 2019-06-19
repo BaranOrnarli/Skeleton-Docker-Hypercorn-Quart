@@ -1,6 +1,14 @@
 # Skeleton Docker Hypercorn Quart
 
-A Skeleton or Boilerplate for a Python 3.7+ asynchronous Web App Microframework API with Quart, Hypercorn as a server to deliver HTTP/2, and Docker to tie it all together
+A Skeleton or Boilerplate for a Python 3.7+ asynchronous Web App Microframework API with Quart, Hypercorn as a server to deliver HTTP/2, and Docker to tie it all together.
+
+##Quick Features
+
+* Hypercorn
+* Quart
+* OpenAPI python class REST
+* HTTP/2 compressed packets
+* TLS encrypted communication enabled with self-signed certificates
 
 # Hypercorn ASGI Server & Quart Python Microframework
 
