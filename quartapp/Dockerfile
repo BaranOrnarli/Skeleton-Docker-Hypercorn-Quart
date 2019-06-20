@@ -26,4 +26,4 @@ USER quart
 # Set the entrypoint
 
 #ENTRYPOINT ["sh", "./boot.sh"]
-CMD ["hypercorn", "--keyfile", "key.pem", "--certfile", "cert.pem", "-b", "0.0.0.0:9000", "server:app"]
+CMD ["hypercorn", "--keyfile", "key.pem", "--certfile", "cert.pem", "-b", "0.0.0.0:9000", "api:app"]
